@@ -15,6 +15,9 @@ Each AsyncProxy then at the end of completion of the asynchronous operation opti
 * [iOS](http://en.wikipedia.org/wiki/IOS)
 * [Mac OS](http://en.wikipedia.org/wiki/Mac_OS)
 
+## Status
+Production - [Version 1.0](https://github.com/PureMVC/puremvc-swift-util-asyncproxy/blob/master/VERSION)
+
 ## License
 * PureMVC Swift Standard/MultiCore Utility – AsyncProxy - Copyright © 2015-2025 Saad Shams
 * PureMVC - Copyright © 2015-2025 Futurescale, Inc.
