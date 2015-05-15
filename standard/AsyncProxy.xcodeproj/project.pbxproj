@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B350B6711A59289800047277 /* AsyncProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B350B6651A59289800047277 /* AsyncProxy.framework */; };
+		B350B6821A5928B800047277 /* AsyncProxy.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = B350B6651A59289800047277 /* AsyncProxy.framework */; };
+		B350B6A01A59299D00047277 /* IAsyncProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B350B69B1A59299D00047277 /* IAsyncProxy.swift */; };
+		B350B6A21A59299D00047277 /* AsyncProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B350B69F1A59299D00047277 /* AsyncProxy.swift */; };
+		B3594C9A1A5A16960010FA07 /* IResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3594C991A5A16960010FA07 /* IResponder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B350B6721A59289800047277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B350B65C1A59289800047277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B350B6641A59289800047277;
+			remoteInfo = AsyncProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B350B6811A5928A700047277 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PROJECT_DIR)/Build";
+			dstSubfolderSpec = 0;
+			files = (
+				B350B6821A5928B800047277 /* AsyncProxy.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B350B6651A59289800047277 /* AsyncProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B350B6691A59289800047277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B350B6701A59289800047277 /* AsyncProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B350B6761A59289800047277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B350B69B1A59299D00047277 /* IAsyncProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAsyncProxy.swift; sourceTree = "<group>"; };
+		B350B69F1A59299D00047277 /* AsyncProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncProxy.swift; sourceTree = "<group>"; };
+		B3594C991A5A16960010FA07 /* IResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IResponder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B350B6611A59289800047277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B350B66D1A59289800047277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B350B6711A59289800047277 /* AsyncProxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B350B65B1A59289800047277 = {
+			isa = PBXGroup;
+			children = (
+				B350B6671A59289800047277 /* AsyncProxy */,
+				B350B6741A59289800047277 /* AsyncProxyTests */,
+				B350B6661A59289800047277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B350B6661A59289800047277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6651A59289800047277 /* AsyncProxy.framework */,
+				B350B6701A59289800047277 /* AsyncProxyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B350B6671A59289800047277 /* AsyncProxy */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6941A59299D00047277 /* org */,
+				B350B6681A59289800047277 /* Supporting Files */,
+			);
+			path = AsyncProxy;
+			sourceTree = "<group>";
+		};
+		B350B6681A59289800047277 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6691A59289800047277 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B350B6741A59289800047277 /* AsyncProxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6751A59289800047277 /* Supporting Files */,
+			);
+			path = AsyncProxyTests;
+			sourceTree = "<group>";
+		};
+		B350B6751A59289800047277 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6761A59289800047277 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B350B6941A59299D00047277 /* org */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6951A59299D00047277 /* puremvc */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		B350B6951A59299D00047277 /* puremvc */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6961A59299D00047277 /* swift */,
+			);
+			path = puremvc;
+			sourceTree = "<group>";
+		};
+		B350B6961A59299D00047277 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6971A59299D00047277 /* standard */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		B350B6971A59299D00047277 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6981A59299D00047277 /* utilities */,
+			);
+			path = standard;
+			sourceTree = "<group>";
+		};
+		B350B6981A59299D00047277 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B350B6991A59299D00047277 /* asyncproxy */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		B350B6991A59299D00047277 /* asyncproxy */ = {
+			isa = PBXGroup;
+			children = (
+				B350B69A1A59299D00047277 /* interfaces */,
+				B350B69D1A59299D00047277 /* patterns */,
+			);
+			path = asyncproxy;
+			sourceTree = "<group>";
+		};
+		B350B69A1A59299D00047277 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				B350B69B1A59299D00047277 /* IAsyncProxy.swift */,
+				B3594C991A5A16960010FA07 /* IResponder.swift */,
+			);
+			path = interfaces;
+			sourceTree = "<group>";
+		};
+		B350B69D1A59299D00047277 /* patterns */ = {
+			isa = PBXGroup;
+			children = (
+				B350B69E1A59299D00047277 /* proxy */,
+			);
+			path = patterns;
+			sourceTree = "<group>";
+		};
+		B350B69E1A59299D00047277 /* proxy */ = {
+			isa = PBXGroup;
+			children = (
+				B350B69F1A59299D00047277 /* AsyncProxy.swift */,
+			);
+			path = proxy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B350B6621A59289800047277 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B350B6641A59289800047277 /* AsyncProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B350B67B1A59289800047277 /* Build configuration list for PBXNativeTarget "AsyncProxy" */;
+			buildPhases = (
+				B350B6601A59289800047277 /* Sources */,
+				B350B6611A59289800047277 /* Frameworks */,
+				B350B6621A59289800047277 /* Headers */,
+				B350B6631A59289800047277 /* Resources */,
+				B350B6811A5928A700047277 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncProxy;
+			productName = AsyncProxy;
+			productReference = B350B6651A59289800047277 /* AsyncProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B350B66F1A59289800047277 /* AsyncProxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B350B67E1A59289800047277 /* Build configuration list for PBXNativeTarget "AsyncProxyTests" */;
+			buildPhases = (
+				B350B66C1A59289800047277 /* Sources */,
+				B350B66D1A59289800047277 /* Frameworks */,
+				B350B66E1A59289800047277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B350B6731A59289800047277 /* PBXTargetDependency */,
+			);
+			name = AsyncProxyTests;
+			productName = AsyncProxyTests;
+			productReference = B350B6701A59289800047277 /* AsyncProxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B350B65C1A59289800047277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = PureMVC;
+				TargetAttributes = {
+					B350B6641A59289800047277 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B350B66F1A59289800047277 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B350B65F1A59289800047277 /* Build configuration list for PBXProject "AsyncProxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B350B65B1A59289800047277;
+			productRefGroup = B350B6661A59289800047277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B350B6641A59289800047277 /* AsyncProxy */,
+				B350B66F1A59289800047277 /* AsyncProxyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B350B6631A59289800047277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B350B66E1A59289800047277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B350B6601A59289800047277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B350B6A21A59299D00047277 /* AsyncProxy.swift in Sources */,
+				B3594C9A1A5A16960010FA07 /* IResponder.swift in Sources */,
+				B350B6A01A59299D00047277 /* IAsyncProxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B350B66C1A59289800047277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B350B6731A59289800047277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B350B6641A59289800047277 /* AsyncProxy */;
+			targetProxy = B350B6721A59289800047277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B350B6791A59289800047277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B350B67A1A59289800047277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B350B67C1A59289800047277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = AsyncProxy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B350B67D1A59289800047277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = AsyncProxy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B350B67F1A59289800047277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AsyncProxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B350B6801A59289800047277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AsyncProxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B350B65F1A59289800047277 /* Build configuration list for PBXProject "AsyncProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B350B6791A59289800047277 /* Debug */,
+				B350B67A1A59289800047277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B350B67B1A59289800047277 /* Build configuration list for PBXNativeTarget "AsyncProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B350B67C1A59289800047277 /* Debug */,
+				B350B67D1A59289800047277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B350B67E1A59289800047277 /* Build configuration list for PBXNativeTarget "AsyncProxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B350B67F1A59289800047277 /* Debug */,
+				B350B6801A59289800047277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B350B65C1A59289800047277 /* Project object */;
+}
