@@ -6,8 +6,8 @@ AsyncMacroCommand is used to chain a series of asynchronous operations while pai
 
 Each AsyncProxy then at the end of completion of the asynchronous operation optionally performing some domain logic/decorating results can pass the results back to its associated AsyncCommand which can then can add results to it's notification and pass it to the next AsyncCommand. It's best to Follow the [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) for each AsyncCommand-AsyncProxy pair. The concepts are also similar to [Monads](http://en.wikipedia.org/wiki/Monad_(functional_programming)) but in an asynchronous manner.
 
-* [API Docs Standard](http://darkstar.puremvc.org/content_header.html?url=http://puremvc.org/pages/docs/Swift/Utility_Swift_AsyncProxy/standard/&desc=PureMVC%20Standard%20Docs%20Haxe%20Utility:%20Async%20Stub)
-* [API Docs MultiCore](http://darkstar.puremvc.org/content_header.html?url=http://puremvc.org/pages/docs/Swift/Utility_Swift_AsyncProxy/multicore/&desc=PureMVC%20MultiCore%20Docs%20Swift%20Utility:%20Async%20Proxy)
+* [API Docs Standard](http://darkstar.puremvc.org/content_header.html?url=http://puremvc.org/pages/docs/Swift/Utility_Swift_AsyncProxy/standard/&desc=PureMVC%20Standard%20Docs%20Swift%20Utility:%20AsyncProxy)
+* [API Docs MultiCore](http://darkstar.puremvc.org/content_header.html?url=http://puremvc.org/pages/docs/Swift/Utility_Swift_AsyncProxy/multicore/&desc=PureMVC%20MultiCore%20Docs%20Swift%20Utility:%20AsyncProxy)
 * [Discussion](http://forums.puremvc.org/index.php?topic=2118.0)
 
 ## Platforms / Technologies
