@@ -51,11 +51,11 @@
         <section>
           <section class="section">
             
-            <a href='#a_href_http_puremvc_github_com_puremvc_a_a_href_https_github_com_PureMVC_puremvc_swift_multicore_framework_wiki_swift_a_utility_async_proxy' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='a_href_http_puremvc_github_com_puremvc_a_a_href_https_github_com_PureMVC_puremvc_swift_multicore_framework_wiki_swift_a_utility_async_proxy'><a href="http://puremvc.github.com/">PureMVC</a> <a href="https://github.com/PureMVC/puremvc-swift-multicore-framework/wiki">Swift</a> Utility: Async Proxy</h2>
+            <a href='#a_href_http_puremvc_github_com_puremvc_a_a_href_https_github_com_PureMVC_puremvc_swift_standard_framework_wiki_swift_a_utility_async_proxy' class='anchor' aria-hidden=true><span class="header-anchor"></span></a><h2 id='a_href_http_puremvc_github_com_puremvc_a_a_href_https_github_com_PureMVC_puremvc_swift_standard_framework_wiki_swift_a_utility_async_proxy'><a href="http://puremvc.github.com/">PureMVC</a> <a href="https://github.com/PureMVC/puremvc-swift-standard-framework/wiki">Swift</a> Utility: Async Proxy</h2>
 
 <p>The AsyncProxy utility offers a solution to the problem of performing some domain logic and/or decorating the results at the end of an asynchronous operation within the AsyncProxy before handing results over to a SimpleCommand or AsyncCommand via an IResponder interface. </p>
 
-<p><a href="multicore/AsyncCommand/org/puremvc/swift/multicore/utilities/asynccommand/patterns/command/AsyncMacroCommand.swift">AsyncMacroCommand</a> is used to chain a series of asynchronous operations while pairing each AsyncCommand with it&rsquo;s own AsyncProxy.</p>
+<p>AsyncMacroCommand is used to chain a series of asynchronous operations while pairing each AsyncCommand with it&rsquo;s own AsyncProxy.</p>
 
 <p>Each AsyncProxy then at the end of completion of the asynchronous operation optionally performing some domain logic/decorating results can pass the results back to it&rsquo;s associated AsyncCommand which can then can add results to it&rsquo;s notification and pass it to the next AsyncCommand. It&rsquo;s best to Follow the <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">Single Responsibility Principle</a> for each AsyncCommand-AsyncProxy pair. The concepts are also similar to <a href="http://en.wikipedia.org/wiki/Monad_(functional_programming)">Monads</a> but in an OO asynchronous manner.</p>
 

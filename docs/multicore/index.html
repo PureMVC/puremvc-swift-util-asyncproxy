@@ -55,7 +55,7 @@
 
 <p>The AsyncProxy utility offers a solution to the problem of performing some domain logic and/or decorating the results at the end of an asynchronous operation within the AsyncProxy before handing results over to a SimpleCommand or AsyncCommand via an IResponder interface. </p>
 
-<p><a href="multicore/AsyncCommand/org/puremvc/swift/multicore/utilities/asynccommand/patterns/command/AsyncMacroCommand.swift">AsyncMacroCommand</a> is used to chain a series of asynchronous operations while pairing each AsyncCommand with it&rsquo;s own AsyncProxy.</p>
+<p>AsyncMacroCommand is used to chain a series of asynchronous operations while pairing each AsyncCommand with it&rsquo;s own AsyncProxy.</p>
 
 <p>Each AsyncProxy then at the end of completion of the asynchronous operation optionally performing some domain logic/decorating results can pass the results back to it&rsquo;s associated AsyncCommand which can then can add results to it&rsquo;s notification and pass it to the next AsyncCommand. It&rsquo;s best to Follow the <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">Single Responsibility Principle</a> for each AsyncCommand-AsyncProxy pair. The concepts are also similar to <a href="http://en.wikipedia.org/wiki/Monad_(functional_programming)">Monads</a> but in an OO asynchronous manner.</p>
 
