@@ -1,4 +1,4 @@
-## [PureMVC](http://puremvc.github.com/) [Swift](https://github.com/sshams/puremvc-swift-multicore-framework/wiki) Utility: AsyncProxy
+## [PureMVC](http://puremvc.github.com/) [Swift](https://github.com/sshams/puremvc-swift-standard-framework/wiki) Utility: AsyncProxy
 
 The AsyncProxy utility offers a solution to the problem of performing some domain logic and/or decorating the results at the end of an asynchronous operation within the AsyncProxy before handing results over to a SimpleCommand or [AsyncCommand](https://github.com/PureMVC/puremvc-swift-util-asynccommand/wiki) via a provided IResponder interface.
 
