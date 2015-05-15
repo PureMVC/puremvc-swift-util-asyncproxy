@@ -1,10 +1,10 @@
 ## [PureMVC](http://puremvc.github.com/) [Swift](https://github.com/sshams/puremvc-swift-multicore-framework/wiki) Utility: AsyncProxy
 
-The AsyncProxy utility offers a solution to the problem of performing some domain logic and/or decorating the results at the end of an asynchronous operation within the AsyncProxy before handing results over to a  [SimpleCommand](https://github.com/PureMVC/puremvc-swift-multicore-framework/blob/master/PureMVC/org/puremvc/swift/multicore/patterns/command/SimpleCommand.swift) or [AsyncCommand](https://github.com/PureMVC/puremvc-swift-util-asynccommand/wiki) via a provided IResponder interface.
+The AsyncProxy utility offers a solution to the problem of performing some domain logic and/or decorating the results at the end of an asynchronous operation within the AsyncProxy before handing results over to a [SimpleCommand](https://github.com/PureMVC/puremvc-swift-multicore-framework/blob/master/PureMVC/org/puremvc/swift/multicore/patterns/command/SimpleCommand.swift) or [AsyncCommand](https://github.com/PureMVC/puremvc-swift-util-asynccommand/wiki) via a provided IResponder interface.
 
 AsyncMacroCommand is used to chain a series of asynchronous operations while pairing each AsyncCommand with its own AsyncProxy.
 
-Each AsyncProxy then at the end of completion of the asynchronous operation optionally performing some domain logic/decorating results can pass the results back to it's associated AsyncCommand which can then can add results to it's notification and pass it to the next AsyncCommand. It's best to Follow the [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) for each AsyncCommand-AsyncProxy pair. The concepts are also similar to [Monads](http://en.wikipedia.org/wiki/Monad_(functional_programming)) but in an asynchronous manner.
+Each AsyncProxy then at the end of completion of the asynchronous operation optionally performing some domain logic/decorating results can pass the results back to its associated AsyncCommand which can then can add results to it's notification and pass it to the next AsyncCommand. It's best to Follow the [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) for each AsyncCommand-AsyncProxy pair. The concepts are also similar to [Monads](http://en.wikipedia.org/wiki/Monad_(functional_programming)) but in an asynchronous manner.
 
 * [API Docs Standard]()
 * [API Docs MultiCore]()
