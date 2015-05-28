@@ -65,7 +65,7 @@ public class AsyncProxy: Proxy, IAsyncProxy {
     */
     public func onResult(data: Any?) {
         asyncInProgress = false
-        responder!.result(data, token: token)
+        responder?.result(data, token: token)
         responder = nil
     }
     
@@ -77,7 +77,7 @@ public class AsyncProxy: Proxy, IAsyncProxy {
     */
     public func onFault(info: Any?) {
         asyncInProgress = false
-        responder!.fault(info, token: token)
+        responder?.fault(info, token: token)
         responder = nil
     }
     
