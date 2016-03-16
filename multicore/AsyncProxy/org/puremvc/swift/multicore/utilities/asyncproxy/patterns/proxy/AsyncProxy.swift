@@ -46,8 +46,8 @@ public class AsyncProxy: Proxy, IAsyncProxy {
     /**
     Initiate an async activity and bind result/fault handlers to it
     
-    :param: responder IResponder type providing result and fault functions
-    :param: token Additional information to associate with this request.
+    - parameter responder: IResponder type providing result and fault functions
+    - parameter token: Additional information to associate with this request.
     */
     public func asyncAction(responder: IResponder, token: Any?) {
         assert(!asyncInProgress, AsyncProxy.PROGRESS_MSG)
@@ -61,7 +61,7 @@ public class AsyncProxy: Proxy, IAsyncProxy {
     This method is called by a service when the return value has been received.
     Optionally override this method in your subclass to manage or prepare the result followed by call to super for the responder's result call
     
-    :param: data Contains the information returned from the request.
+    - parameter data: Contains the information returned from the request.
     */
     public func onResult(data: Any?) {
         asyncInProgress = false
@@ -73,7 +73,7 @@ public class AsyncProxy: Proxy, IAsyncProxy {
     This method is called by a service when an error has been received.
     Optionally override this method in your subclass to manage or prepare the error followed by call to super for the responder's fault call
     
-    :param: info Contains the information about the error that occured.
+    - parameter info: Contains the information about the error that occured.
     */
     public func onFault(info: Any?) {
         asyncInProgress = false
