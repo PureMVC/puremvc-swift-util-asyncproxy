@@ -63,7 +63,7 @@ public class AsyncProxy: Proxy, IAsyncProxy {
     
     :param: data Contains the information returned from the request.
     */
-    public func onResult(data: Any?) {
+    public func onResult(_ data: Any?) {
         asyncInProgress = false
         responder?.result(data, token: token)
         responder = nil
@@ -75,7 +75,7 @@ public class AsyncProxy: Proxy, IAsyncProxy {
     
     :param: info Contains the information about the error that occured.
     */
-    public func onFault(info: Any?) {
+    public func onFault(_ info: Any?) {
         asyncInProgress = false
         responder?.fault(info, token: token)
         responder = nil

@@ -12,9 +12,9 @@ import PureMVC
 public protocol IResponder: ICommand {
     
     /// This method is called by `IAsyncProxy` when the return value has been received.
-    func result(data: Any?, token: Any?)
+    func result(_ data: Any?, token: Any?)
     
     /// This method is called by `IAsyncProxy` when an error has been received.
-    func fault(info: Any?, token: Any?)
+    func fault(_ info: Any?, token: Any?)
     
 }

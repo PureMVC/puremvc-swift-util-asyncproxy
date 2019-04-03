@@ -15,9 +15,9 @@ public protocol IAsyncProxy: IProxy {
     func asyncAction(responder: IResponder, token: Any?)
     
     /// This method is called by a service when the return value has been received.
-    func onResult(data: Any?)
+    func onResult(_ data: Any?)
     
     /// This method is called by a service when an error has been received.
-    func onFault(info: Any?)
+    func onFault(_ info: Any?)
     
 }

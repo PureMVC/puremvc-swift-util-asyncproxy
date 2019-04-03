@@ -3,217 +3,204 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B350B6711A59289800047277 /* AsyncProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B350B6651A59289800047277 /* AsyncProxy.framework */; };
-		B350B6821A5928B800047277 /* AsyncProxy.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = B350B6651A59289800047277 /* AsyncProxy.framework */; };
-		B350B6A01A59299D00047277 /* IAsyncProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B350B69B1A59299D00047277 /* IAsyncProxy.swift */; };
-		B350B6A21A59299D00047277 /* AsyncProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B350B69F1A59299D00047277 /* AsyncProxy.swift */; };
-		B3594C9A1A5A16960010FA07 /* IResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3594C991A5A16960010FA07 /* IResponder.swift */; };
+		A87641F42254989B002FB773 /* AsyncProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87641EA2254989B002FB773 /* AsyncProxy.framework */; };
+		A87641F92254989B002FB773 /* AsyncProxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87641F82254989B002FB773 /* AsyncProxyTests.swift */; };
+		A87641FB2254989B002FB773 /* AsyncProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A87641ED2254989B002FB773 /* AsyncProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A876422222549955002FB773 /* AsyncProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A876421E22549955002FB773 /* AsyncProxy.swift */; };
+		A876422322549955002FB773 /* IResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A876422022549955002FB773 /* IResponder.swift */; };
+		A876422422549955002FB773 /* IAsyncProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A876422122549955002FB773 /* IAsyncProxy.swift */; };
+		A876422722549960002FB773 /* PureMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A876422622549960002FB773 /* PureMVC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B350B6721A59289800047277 /* PBXContainerItemProxy */ = {
+		A87641F52254989B002FB773 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B350B65C1A59289800047277 /* Project object */;
+			containerPortal = A87641E12254989A002FB773 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B350B6641A59289800047277;
+			remoteGlobalIDString = A87641E92254989B002FB773;
 			remoteInfo = AsyncProxy;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		B350B6811A5928A700047277 /* Copy Files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(PROJECT_DIR)/Build";
-			dstSubfolderSpec = 0;
-			files = (
-				B350B6821A5928B800047277 /* AsyncProxy.framework in Copy Files */,
-			);
-			name = "Copy Files";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		B350B6651A59289800047277 /* AsyncProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B350B6691A59289800047277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B350B6701A59289800047277 /* AsyncProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B350B6761A59289800047277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B350B69B1A59299D00047277 /* IAsyncProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAsyncProxy.swift; sourceTree = "<group>"; };
-		B350B69F1A59299D00047277 /* AsyncProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncProxy.swift; sourceTree = "<group>"; };
-		B3594C991A5A16960010FA07 /* IResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IResponder.swift; sourceTree = "<group>"; };
+		A87641EA2254989B002FB773 /* AsyncProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AsyncProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87641ED2254989B002FB773 /* AsyncProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncProxy.h; sourceTree = "<group>"; };
+		A87641EE2254989B002FB773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87641F32254989B002FB773 /* AsyncProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87641F82254989B002FB773 /* AsyncProxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncProxyTests.swift; sourceTree = "<group>"; };
+		A87641FA2254989B002FB773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A876421E22549955002FB773 /* AsyncProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncProxy.swift; sourceTree = "<group>"; };
+		A876422022549955002FB773 /* IResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IResponder.swift; sourceTree = "<group>"; };
+		A876422122549955002FB773 /* IAsyncProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAsyncProxy.swift; sourceTree = "<group>"; };
+		A876422622549960002FB773 /* PureMVC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PureMVC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B350B6611A59289800047277 /* Frameworks */ = {
+		A87641E72254989B002FB773 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A876422722549960002FB773 /* PureMVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B350B66D1A59289800047277 /* Frameworks */ = {
+		A87641F02254989B002FB773 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B350B6711A59289800047277 /* AsyncProxy.framework in Frameworks */,
+				A87641F42254989B002FB773 /* AsyncProxy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B350B65B1A59289800047277 = {
+		A87641E02254989A002FB773 = {
 			isa = PBXGroup;
 			children = (
-				B350B6671A59289800047277 /* AsyncProxy */,
-				B350B6741A59289800047277 /* AsyncProxyTests */,
-				B350B6661A59289800047277 /* Products */,
+				A87641EC2254989B002FB773 /* AsyncProxy */,
+				A87641F72254989B002FB773 /* AsyncProxyTests */,
+				A87641EB2254989B002FB773 /* Products */,
+				A876422522549960002FB773 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B350B6661A59289800047277 /* Products */ = {
+		A87641EB2254989B002FB773 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B350B6651A59289800047277 /* AsyncProxy.framework */,
-				B350B6701A59289800047277 /* AsyncProxyTests.xctest */,
+				A87641EA2254989B002FB773 /* AsyncProxy.framework */,
+				A87641F32254989B002FB773 /* AsyncProxyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B350B6671A59289800047277 /* AsyncProxy */ = {
+		A87641EC2254989B002FB773 /* AsyncProxy */ = {
 			isa = PBXGroup;
 			children = (
-				B350B6941A59299D00047277 /* org */,
-				B350B6681A59289800047277 /* Supporting Files */,
+				A876421622549955002FB773 /* org */,
+				A87641ED2254989B002FB773 /* AsyncProxy.h */,
+				A87641EE2254989B002FB773 /* Info.plist */,
 			);
 			path = AsyncProxy;
 			sourceTree = "<group>";
 		};
-		B350B6681A59289800047277 /* Supporting Files */ = {
+		A87641F72254989B002FB773 /* AsyncProxyTests */ = {
 			isa = PBXGroup;
 			children = (
-				B350B6691A59289800047277 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B350B6741A59289800047277 /* AsyncProxyTests */ = {
-			isa = PBXGroup;
-			children = (
-				B350B6751A59289800047277 /* Supporting Files */,
+				A87641F82254989B002FB773 /* AsyncProxyTests.swift */,
+				A87641FA2254989B002FB773 /* Info.plist */,
 			);
 			path = AsyncProxyTests;
 			sourceTree = "<group>";
 		};
-		B350B6751A59289800047277 /* Supporting Files */ = {
+		A876421622549955002FB773 /* org */ = {
 			isa = PBXGroup;
 			children = (
-				B350B6761A59289800047277 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B350B6941A59299D00047277 /* org */ = {
-			isa = PBXGroup;
-			children = (
-				B350B6951A59299D00047277 /* puremvc */,
+				A876421722549955002FB773 /* puremvc */,
 			);
 			path = org;
 			sourceTree = "<group>";
 		};
-		B350B6951A59299D00047277 /* puremvc */ = {
+		A876421722549955002FB773 /* puremvc */ = {
 			isa = PBXGroup;
 			children = (
-				B350B6961A59299D00047277 /* swift */,
+				A876421822549955002FB773 /* swift */,
 			);
 			path = puremvc;
 			sourceTree = "<group>";
 		};
-		B350B6961A59299D00047277 /* swift */ = {
+		A876421822549955002FB773 /* swift */ = {
 			isa = PBXGroup;
 			children = (
-				B350B6971A59299D00047277 /* standard */,
+				A876421922549955002FB773 /* standard */,
 			);
 			path = swift;
 			sourceTree = "<group>";
 		};
-		B350B6971A59299D00047277 /* standard */ = {
+		A876421922549955002FB773 /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				B350B6981A59299D00047277 /* utilities */,
+				A876421A22549955002FB773 /* utilities */,
 			);
 			path = standard;
 			sourceTree = "<group>";
 		};
-		B350B6981A59299D00047277 /* utilities */ = {
+		A876421A22549955002FB773 /* utilities */ = {
 			isa = PBXGroup;
 			children = (
-				B350B6991A59299D00047277 /* asyncproxy */,
+				A876421B22549955002FB773 /* asyncproxy */,
 			);
 			path = utilities;
 			sourceTree = "<group>";
 		};
-		B350B6991A59299D00047277 /* asyncproxy */ = {
+		A876421B22549955002FB773 /* asyncproxy */ = {
 			isa = PBXGroup;
 			children = (
-				B350B69A1A59299D00047277 /* interfaces */,
-				B350B69D1A59299D00047277 /* patterns */,
+				A876421C22549955002FB773 /* patterns */,
+				A876421F22549955002FB773 /* interfaces */,
 			);
 			path = asyncproxy;
 			sourceTree = "<group>";
 		};
-		B350B69A1A59299D00047277 /* interfaces */ = {
+		A876421C22549955002FB773 /* patterns */ = {
 			isa = PBXGroup;
 			children = (
-				B350B69B1A59299D00047277 /* IAsyncProxy.swift */,
-				B3594C991A5A16960010FA07 /* IResponder.swift */,
-			);
-			path = interfaces;
-			sourceTree = "<group>";
-		};
-		B350B69D1A59299D00047277 /* patterns */ = {
-			isa = PBXGroup;
-			children = (
-				B350B69E1A59299D00047277 /* proxy */,
+				A876421D22549955002FB773 /* proxy */,
 			);
 			path = patterns;
 			sourceTree = "<group>";
 		};
-		B350B69E1A59299D00047277 /* proxy */ = {
+		A876421D22549955002FB773 /* proxy */ = {
 			isa = PBXGroup;
 			children = (
-				B350B69F1A59299D00047277 /* AsyncProxy.swift */,
+				A876421E22549955002FB773 /* AsyncProxy.swift */,
 			);
 			path = proxy;
+			sourceTree = "<group>";
+		};
+		A876421F22549955002FB773 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				A876422022549955002FB773 /* IResponder.swift */,
+				A876422122549955002FB773 /* IAsyncProxy.swift */,
+			);
+			path = interfaces;
+			sourceTree = "<group>";
+		};
+		A876422522549960002FB773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A876422622549960002FB773 /* PureMVC.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B350B6621A59289800047277 /* Headers */ = {
+		A87641E52254989B002FB773 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87641FB2254989B002FB773 /* AsyncProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B350B6641A59289800047277 /* AsyncProxy */ = {
+		A87641E92254989B002FB773 /* AsyncProxy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B350B67B1A59289800047277 /* Build configuration list for PBXNativeTarget "AsyncProxy" */;
+			buildConfigurationList = A87641FE2254989B002FB773 /* Build configuration list for PBXNativeTarget "AsyncProxy" */;
 			buildPhases = (
-				B350B6601A59289800047277 /* Sources */,
-				B350B6611A59289800047277 /* Frameworks */,
-				B350B6621A59289800047277 /* Headers */,
-				B350B6631A59289800047277 /* Resources */,
-				B350B6811A5928A700047277 /* Copy Files */,
+				A87641E52254989B002FB773 /* Headers */,
+				A87641E62254989B002FB773 /* Sources */,
+				A87641E72254989B002FB773 /* Frameworks */,
+				A87641E82254989B002FB773 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -221,72 +208,72 @@
 			);
 			name = AsyncProxy;
 			productName = AsyncProxy;
-			productReference = B350B6651A59289800047277 /* AsyncProxy.framework */;
+			productReference = A87641EA2254989B002FB773 /* AsyncProxy.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B350B66F1A59289800047277 /* AsyncProxyTests */ = {
+		A87641F22254989B002FB773 /* AsyncProxyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B350B67E1A59289800047277 /* Build configuration list for PBXNativeTarget "AsyncProxyTests" */;
+			buildConfigurationList = A87642012254989B002FB773 /* Build configuration list for PBXNativeTarget "AsyncProxyTests" */;
 			buildPhases = (
-				B350B66C1A59289800047277 /* Sources */,
-				B350B66D1A59289800047277 /* Frameworks */,
-				B350B66E1A59289800047277 /* Resources */,
+				A87641EF2254989B002FB773 /* Sources */,
+				A87641F02254989B002FB773 /* Frameworks */,
+				A87641F12254989B002FB773 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B350B6731A59289800047277 /* PBXTargetDependency */,
+				A87641F62254989B002FB773 /* PBXTargetDependency */,
 			);
 			name = AsyncProxyTests;
 			productName = AsyncProxyTests;
-			productReference = B350B6701A59289800047277 /* AsyncProxyTests.xctest */;
+			productReference = A87641F32254989B002FB773 /* AsyncProxyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B350B65C1A59289800047277 /* Project object */ = {
+		A87641E12254989A002FB773 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0720;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = PureMVC;
 				TargetAttributes = {
-					B350B6641A59289800047277 = {
-						CreatedOnToolsVersion = 6.1.1;
+					A87641E92254989B002FB773 = {
+						CreatedOnToolsVersion = 10.2;
 					};
-					B350B66F1A59289800047277 = {
-						CreatedOnToolsVersion = 6.1.1;
+					A87641F22254989B002FB773 = {
+						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = B350B65F1A59289800047277 /* Build configuration list for PBXProject "AsyncProxy" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = A87641E42254989A002FB773 /* Build configuration list for PBXProject "AsyncProxy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B350B65B1A59289800047277;
-			productRefGroup = B350B6661A59289800047277 /* Products */;
+			mainGroup = A87641E02254989A002FB773;
+			productRefGroup = A87641EB2254989B002FB773 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B350B6641A59289800047277 /* AsyncProxy */,
-				B350B66F1A59289800047277 /* AsyncProxyTests */,
+				A87641E92254989B002FB773 /* AsyncProxy */,
+				A87641F22254989B002FB773 /* AsyncProxyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B350B6631A59289800047277 /* Resources */ = {
+		A87641E82254989B002FB773 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B350B66E1A59289800047277 /* Resources */ = {
+		A87641F12254989B002FB773 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,125 +283,162 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B350B6601A59289800047277 /* Sources */ = {
+		A87641E62254989B002FB773 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B350B6A21A59299D00047277 /* AsyncProxy.swift in Sources */,
-				B3594C9A1A5A16960010FA07 /* IResponder.swift in Sources */,
-				B350B6A01A59299D00047277 /* IAsyncProxy.swift in Sources */,
+				A876422422549955002FB773 /* IAsyncProxy.swift in Sources */,
+				A876422322549955002FB773 /* IResponder.swift in Sources */,
+				A876422222549955002FB773 /* AsyncProxy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B350B66C1A59289800047277 /* Sources */ = {
+		A87641EF2254989B002FB773 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87641F92254989B002FB773 /* AsyncProxyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B350B6731A59289800047277 /* PBXTargetDependency */ = {
+		A87641F62254989B002FB773 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B350B6641A59289800047277 /* AsyncProxy */;
-			targetProxy = B350B6721A59289800047277 /* PBXContainerItemProxy */;
+			target = A87641E92254989B002FB773 /* AsyncProxy */;
+			targetProxy = A87641F52254989B002FB773 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		B350B6791A59289800047277 /* Debug */ = {
+		A87641FC2254989B002FB773 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B350B67A1A59289800047277 /* Release */ = {
+		A87641FD2254989B002FB773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B350B67C1A59289800047277 /* Debug */ = {
+		A87641FF2254989B002FB773 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -425,16 +449,24 @@
 				);
 				INFOPLIST_FILE = AsyncProxy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.puremvc.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.puremvc.AsyncProxy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B350B67D1A59289800047277 /* Release */ = {
+		A87642002254989B002FB773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -445,79 +477,86 @@
 				);
 				INFOPLIST_FILE = AsyncProxy/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.puremvc.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.puremvc.AsyncProxy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		B350B67F1A59289800047277 /* Debug */ = {
+		A87642022254989B002FB773 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AsyncProxyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.puremvc.$(PRODUCT_NAME:rfc1034identifier)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.puremvc.AsyncProxyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B350B6801A59289800047277 /* Release */ = {
+		A87642032254989B002FB773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AsyncProxyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.puremvc.$(PRODUCT_NAME:rfc1034identifier)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.puremvc.AsyncProxyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B350B65F1A59289800047277 /* Build configuration list for PBXProject "AsyncProxy" */ = {
+		A87641E42254989A002FB773 /* Build configuration list for PBXProject "AsyncProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B350B6791A59289800047277 /* Debug */,
-				B350B67A1A59289800047277 /* Release */,
+				A87641FC2254989B002FB773 /* Debug */,
+				A87641FD2254989B002FB773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B350B67B1A59289800047277 /* Build configuration list for PBXNativeTarget "AsyncProxy" */ = {
+		A87641FE2254989B002FB773 /* Build configuration list for PBXNativeTarget "AsyncProxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B350B67C1A59289800047277 /* Debug */,
-				B350B67D1A59289800047277 /* Release */,
+				A87641FF2254989B002FB773 /* Debug */,
+				A87642002254989B002FB773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B350B67E1A59289800047277 /* Build configuration list for PBXNativeTarget "AsyncProxyTests" */ = {
+		A87642012254989B002FB773 /* Build configuration list for PBXNativeTarget "AsyncProxyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B350B67F1A59289800047277 /* Debug */,
-				B350B6801A59289800047277 /* Release */,
+				A87642022254989B002FB773 /* Debug */,
+				A87642032254989B002FB773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B350B65C1A59289800047277 /* Project object */;
+	rootObject = A87641E12254989A002FB773 /* Project object */;
 }

@@ -1,3 +1,11 @@
 framework module AsyncProxy {
+  umbrella header "AsyncProxy.h"
+
+  export *
+  module * { export * }
+}
+
+module AsyncProxy.Swift {
     header "AsyncProxy-Swift.h"
+    requires objc
 }
